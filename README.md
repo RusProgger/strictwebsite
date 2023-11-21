@@ -1,2 +1,2 @@
 # strictwebsite
-Website-Layout Template
+Website-Layout Template https://rusprogger.github.io/strictwebsite/
