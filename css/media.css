@@ -1,0 +1,114 @@
+/* cards media width: 1005px */
+
+@media screen and (max-width: 1005px) {
+    .card {
+        width: 240px;
+    }
+}
+
+/* cards media width: 855px */
+
+@media screen and (max-width: 855px) {
+    .card {
+        width: 27%;
+    }
+}
+
+/* header media width: 771px */
+
+@media screen and (max-width: 771px) {
+    .main-strict-title {
+        font-size: 5.2rem;
+    }
+
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .main-strict-content {
+        max-width: 400px;
+    }
+}
+
+/* form  */ 
+
+@media screen and (max-width: 590px) {
+    .form-body {
+        max-width: 100%;
+    }
+
+    .form-body__check span {
+    margin-left: -190px;
+    font-weight: normal;
+    color: #ffffff;
+    display: block;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .form-body__check {
+        display: block; 
+        text-align: center;
+    }
+
+    .form-body__check .btn-send {
+        width: 100%;
+    }
+
+    input[type=checkbox],
+    .form-body__check span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .main-strict {
+        min-height: auto;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .social-icon a svg {
+        width: 25px;
+    }
+
+    .title {
+        font-size: 1.7rem;
+    }
+
+    .main-strict-title {
+        font-size: 3.8rem;
+    }
+
+    .main-strict-desc {
+        padding: 0 10px;
+    }
+
+    .showcase-cards {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .main-strict-content {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 334px) {
+    .main-strict-content {
+        max-width: 260px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .copyright {
+        font-size: 0.675rem;
+    }
+}
